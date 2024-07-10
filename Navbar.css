@@ -1,0 +1,45 @@
+.Navbar{
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-left:30px;
+    color:black;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+}
+.Navbar ul{
+    display:flex;
+    justify-content: space-evenly;
+}
+.Navbar ul li{
+    display:flex;
+    justify-content: space-between;
+    padding-left:80px;
+    margin-left:80px;
+}
+@keyframes example {
+    from {background-color:white;}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+.Navbar ul li:hover{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+  }
+.logo{
+color:black;
+font-weight:400;
+font-size: 50px;
+font-family:fantasy;
+display:flex;
+padding-right:20px;
+margin-right:20px;
+}
