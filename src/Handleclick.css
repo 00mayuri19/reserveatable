@@ -1,0 +1,6 @@
+.btn{
+    font-size:40px;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
