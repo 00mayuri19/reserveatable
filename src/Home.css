@@ -1,0 +1,52 @@
+.main{
+    text-align:center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+background-image: url('https://i.pinimg.com/originals/00/03/86/00038609637f4b0a7eed6de007ff5aac.jpg');
+z-index:2;
+opacity:var(50%);
+font-weight: 600;
+font-size:20px;
+}
+@keyframes nature{
+    0%{
+   background-color:yellow;
+   
+
+    }
+    25%{
+        background-color:green;
+
+    }
+    50%{
+        background-color:aqua;
+
+    }
+    75%{
+        background-color:orange;
+
+    }
+    100%{
+        background-color:blueviolet;
+    }
+
+}
+
+.button{
+    padding-top:0px;
+    margin:30px auto;
+    border:4px solid black;
+    border-style: double;
+    box-shadow:40%;
+    border-radius:80px;
+    font-size:40px;
+    font-weight: bolder;
+    font-style: normal;
+    animation-name: nature;
+    animation:nature 10s 3s infinite ease-in-out;
+    z-index:-1;
+list-style-type:none;
+}
+.button:hover{
+    box-shadow: 0 0 6px 9px rgba(0, 140, 186, 0.5);
+    animation-fill-mode: ease-in-out;}
